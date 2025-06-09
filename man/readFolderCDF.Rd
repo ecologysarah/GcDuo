@@ -4,7 +4,7 @@
 \alias{readFolderCDF}
 \title{readFolderCDF}
 \usage{
-readFolderCDF(folderPath, modulationTime, mzRange)
+readFolderCDF(folderPath, modulationTime, mzRange, ncore = NULL)
 }
 \arguments{
 \item{folderPath}{path to the folder containing the CDF to process.}
@@ -12,6 +12,8 @@ readFolderCDF(folderPath, modulationTime, mzRange)
 \item{modulationTime}{modulation time used in the data.}
 
 \item{mzRange}{range values used in the m/z data acquisition.}
+
+\item{ncore}{number of parallel processes to start. Defaults to number of available cores - 1.}
 }
 \value{
 A List of arrays containing all the data in the files following the structure: |mz, time2D, time1D|

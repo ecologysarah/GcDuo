@@ -4,7 +4,7 @@
 \alias{getRI}
 \title{Get Retention Index}
 \usage{
-getRI(DuoResults, RI)
+getRI(DuoResults, RI, libs_ri = NULL, samples_ri = NULL)
 }
 \description{
 Calculates Kovats Retention Index based in Alkanes

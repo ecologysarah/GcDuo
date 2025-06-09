@@ -4,7 +4,7 @@
 \alias{libID}
 \title{libID}
 \usage{
-libID(Peak2ID, lib_matrix)
+libID(Peak2ID, lib_matrix, libs_ri = NULL, samples_ri = NULL)
 }
 \description{
 Annotation of spectras
